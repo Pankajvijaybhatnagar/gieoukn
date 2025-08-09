@@ -5,93 +5,101 @@ const ServiceAreaOne = () => {
     <div className="service-area-1 space-top bg-smoke overflow-hidden">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-lg-6">
+          <div className="col-lg-8">
             <div className="title-area text-center">
-              <span className="sub-title">Latest service</span>
+              <span className="sub-title">Our Initiatives</span>
               <h2 className="sec-title">
-                Professional Car Repair The Best Services
+                Inspiring Spiritual Growth & Social Harmony
               </h2>
+              <p>
+                At GIEO GITA UK, we conduct meaningful activities that nurture values, promote unity, and uplift society — all rooted in the timeless wisdom of the Bhagwad Gita.
+              </p>
             </div>
           </div>
         </div>
       </div>
+
       <div className="container">
         <div className="row gy-4 justify-content-center">
+          
+          {/* Spiritual Seminars */}
           <div className="col-lg-4 col-md-6">
             <div className="service-card">
               <div className="service-card_content">
                 <div className="service-card_icon">
                   <img
                     src="assets/img/icon/service-icon_1-1.svg"
-                    alt="Fixturbo"
+                    alt="Spiritual Seminars"
                   />
                 </div>
                 <h4 className="service-card_title h5">
-                  <Link href="/service-details">Auto Fixers</Link>
+                  <Link href="/service-details">Spiritual Seminars</Link>
                 </h4>
                 <p className="service-card_text">
-                  A car repair is a service provided to fix any issues or
-                  damages with your{" "}
+                  Interactive sessions to explore the Bhagwad Gita’s wisdom, empowering people to lead balanced and purposeful lives.
                 </p>
                 <Link href="/service-details" className="link-btn">
-                  Read More <i className="fas fa-arrow-right" />
+                  Learn More <i className="fas fa-arrow-right" />
                 </Link>
               </div>
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-1.png" alt="Fixturbo" />
+                <img src="assets/img/service/spiritual-seminar.png" alt="Spiritual Seminars" />
               </div>
             </div>
           </div>
+
+          {/* Gau Seva Program */}
           <div className="col-lg-4 col-md-6">
             <div className="service-card">
               <div className="service-card_content">
                 <div className="service-card_icon">
                   <img
                     src="assets/img/icon/service-icon_1-2.svg"
-                    alt="Fixturbo"
+                    alt="Gau Seva"
                   />
                 </div>
                 <h4 className="service-card_title h5">
-                  <Link href="/service-details">Mechanic Masters</Link>
+                  <Link href="/service-details">Gau Seva Program</Link>
                 </h4>
                 <p className="service-card_text">
-                  A car repair is a service provided to fix any issues or
-                  damages with your{" "}
+                  Promoting compassion through service to cows, preserving tradition, and supporting sustainable rural livelihoods.
                 </p>
                 <Link href="/service-details" className="link-btn">
-                  Read More <i className="fas fa-arrow-right" />
+                  Learn More <i className="fas fa-arrow-right" />
                 </Link>
               </div>
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-2.png" alt="Fixturbo" />
+                <img src="assets/img/service/gauseva.png" alt="Gau Seva" />
               </div>
             </div>
           </div>
+
+          {/* Cultural Harmony Events */}
           <div className="col-lg-4 col-md-6">
             <div className="service-card">
               <div className="service-card_content">
                 <div className="service-card_icon">
                   <img
                     src="assets/img/icon/service-icon_1-3.svg"
-                    alt="Fixturbo"
+                    alt="Cultural Harmony"
                   />
                 </div>
                 <h4 className="service-card_title h5">
-                  <Link href="/service-details">Drive-In Garage</Link>
+                  <Link href="/service-details">Cultural Harmony Events</Link>
                 </h4>
                 <p className="service-card_text">
-                  A car repair is a service provided to fix any issues or
-                  damages with your{" "}
+                  Festivals, music, and arts that celebrate unity in diversity, fostering mutual respect among communities.
                 </p>
                 <Link href="/service-details" className="link-btn">
-                  Read More <i className="fas fa-arrow-right" />
+                  Learn More <i className="fas fa-arrow-right" />
                 </Link>
               </div>
               <div className="service-card_img">
-                <img src="assets/img/service/service-1-3.png" alt="Fixturbo" />
+                <img src="assets/img/service/cultural-harmony.png" alt="Cultural Harmony" />
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>

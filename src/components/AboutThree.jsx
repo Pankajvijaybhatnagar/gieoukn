@@ -3,24 +3,24 @@ import Link from "next/link";
 const AboutThree = () => {
   return (
     <div className="about-area-1 space">
-      <div className="about1-shape-img shape-mockup">
+      {/* <div className="about1-shape-img shape-mockup">
         <img
           className="about1-shape-img-1 spin"
           src="assets/img/normal/about_shape1-2.svg"
-          alt="Fixturbo"
+          alt="GIEO GITA UK"
         />
         <img
           className="about1-shape-img-2 spin2"
           src="assets/img/normal/about_shape1-1.svg"
-          alt="Fixturbo"
+          alt="GIEO GITA UK"
         />
-      </div>
+      </div> */}
       <div className="container">
         <div className="row gx-60 align-items-center flex-row-reverse">
           <div className="col-xl-7 text-xl-center">
             <div className="about-thumb3 mb-40 mb-xl-0">
               <div className="about-img-1">
-                <img src="assets/img/normal/wcu-3.png" alt="Fixturbo" />
+                <img src="assets/img/normal/wcu-3.png" alt="GIEO GITA UK" />
               </div>
             </div>
           </div>
@@ -28,10 +28,9 @@ const AboutThree = () => {
             <div className="about-content-wrap">
               <div className="title-area me-xl-5 mb-30">
                 <span className="sub-title">Know About Us</span>
-                <h2 className="sec-title">Our Best Advantages</h2>
+                <h2 className="sec-title">Our Mission & Values</h2>
                 <p className="sec-text">
-                  Et purus duis sollicitudin dignissim habitant. Egestas nulla
-                  quis venenatis cras sed eu massa eu faucibus. Urna fusce
+                  GIEO GITA UK is dedicated to spreading the timeless wisdom of the Bhagwad Gita, promoting religious unity, universal brotherhood, and the welfare of all. We connect like-minded individuals worldwide to foster harmony, cultural understanding, and spiritual growth.
                 </p>
               </div>
               <div className="row gy-4 justify-content-md-between justify-content-end align-items-center flex-row-reverse">
@@ -40,19 +39,19 @@ const AboutThree = () => {
                     <ul>
                       <li>
                         <i className="fas fa-check-double" />
-                        Low Price Guarantee
+                        Promoting Religious Unity
                       </li>
                       <li>
                         <i className="fas fa-check-double" />
-                        Trained Technicians
+                        Encouraging Universal Brotherhood
                       </li>
                       <li>
                         <i className="fas fa-check-double" />
-                        Life-Time Warranty
+                        Inspiring Spiritual Growth
                       </li>
                       <li>
                         <i className="fas fa-check-double" />
-                        Automated testing lanes
+                        Organising Cultural Festivals
                       </li>
                     </ul>
                   </div>
@@ -62,19 +61,19 @@ const AboutThree = () => {
                     <ul>
                       <li>
                         <i className="fas fa-check-double" />
-                        Quick Service Times
+                        Educational & Social Welfare Programs
                       </li>
                       <li>
                         <i className="fas fa-check-double" />
-                        Free Trade Appraisal
+                        Connecting Global Communities
                       </li>
                       <li>
                         <i className="fas fa-check-double" />
-                        Genuine spare parts
+                        Preserving Cultural Heritage
                       </li>
                       <li>
                         <i className="fas fa-check-double" />
-                        Unbeatable savings!
+                        Inspiring Future Generations
                       </li>
                     </ul>
                   </div>

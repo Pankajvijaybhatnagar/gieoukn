@@ -46,16 +46,22 @@ const HeroThree = () => {
                         data-ani="slideinup"
                         data-ani-delay="0.1s"
                       >
-                        Revive, Repair, Relish the Ride!
+                        Overview
                       </h1>
                       <p
                         className="hero-text text-white"
                         data-ani="slideinup"
                         data-ani-delay="0.2s"
                       >
-                        Vestibulum rhoncus nisl ac gravida porta. Mauris eu
-                        sapien lacus. Etiam molestie justo neque, in convallis
-                        massa tempus in.
+                        GIEO GITA UK (Global Inspiration Enlightenment
+                        Organisation of the Bhagwad Gita) is an extension of the
+                        International GIEO GITA organization based in India. Its
+                        main objective is to unite likeminded individuals
+                        worldwide who believe in the universality of the Bhagwad
+                        Gita's teachings. By bringing together people from
+                        diverse backgrounds, GIEO GITA UK aims to create an
+                        environment conducive to religious unity, universal
+                        brotherhood, and the welfare of all.
                       </p>
                       <div
                         className="btn-group"
@@ -133,16 +139,21 @@ const HeroThree = () => {
                         data-ani="slideinup"
                         data-ani-delay="0.1s"
                       >
-                        Smooth Rides, Seamless Repairs.
+                        The Manchester Gita Festival
                       </h1>
                       <p
                         className="hero-text text-white"
                         data-ani="slideinup"
                         data-ani-delay="0.2s"
                       >
-                        Vestibulum rhoncus nisl ac gravida porta. Mauris eu
-                        sapien lacus. Etiam molestie justo neque, in convallis
-                        massa tempus in.
+                        Three-Day Multi-Faith Cultural Event – Promoting Peace,
+                        Love, and Harmony inspired by the teachings of the
+                        Bhagwad Gita. Our aim is to create a platform that
+                        brings together diverse communities, fostering
+                        understanding and unity through the shared principles
+                        found in the Bhagwad Gita. This event will feature
+                        enlightening discussions, cultural performances, and
+                        interactions.
                       </p>
                       <div
                         className="btn-group"
